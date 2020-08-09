@@ -1,105 +1,94 @@
-body{
-
-    font-weight: bold;
-    line-height: 2rem;
-
+body {
+  font-weight: bold;
+  line-height: 2rem;
 }
 .diagonalBox {
-
-    background: rgb(143, 208, 241);
-    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
-    padding: 5rem 0;
-    transform: skew(0deg,-3deg) translateY(-90px);
-    position: relative;
-
+  background: rgb(143, 208, 241);
+  background-image: linear-gradient(
+    -225deg,
+    #473b7b 0%,
+    #3584a7 51%,
+    #30d2be 100%
+  );
+  padding: 5rem 0;
+  transform: skew(0deg, -3deg) translateY(-90px);
+  position: relative;
 }
 
-.leftMargin{
-    margin: -25px 0 0 0;
-    margin-left: -100px;
+.leftMargin {
+  margin: -25px 0 0 0;
+  margin-left: -100px;
 }
-
 
 .btn {
-
-    font-weight: bold;
-
+  font-weight: bold;
 }
 
 .skill-logo {
-   
-    width: 8rem;
-    height: 8rem;
-
+  width: 8rem;
+  height: 8rem;
 }
 
 .marginBox {
-
-    margin-top: -190px;
-    position: relative;
-
+  margin-top: -190px;
+  position: relative;
 }
 
 .rounded-circle {
-
-    border-radius: 50% !important;
-    border: 1rem solid #3584A7;
-    height: 12rem;
-    width: 12rem;
-
+  border-radius: 50% !important;
+  border: 1rem solid #3584a7;
+  height: 12rem;
+  width: 12rem;
 }
 
 .avatarImg {
-
-    background: -webkit-linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
-    /* width: 12rem;
-    height: 12rem; */
-    border-radius: 100px;
-    padding: 10px;
-
+  background: -webkit-linear-gradient(
+    -225deg,
+    #473b7b 0%,
+    #3584a7 51%,
+    #30d2be 100%
+  );
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100px;
+  padding: 10px;
 }
 
-.profileImg{
-
-    height: 12rem;
-    width: 12rem;
-    margin: auto;
-    padding: auto;
-
+.profileImg {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  padding: auto;
 }
 
 .linksImg {
-
-    height: 40px;
-    width: 80px;
-
+  height: 40px;
+  width: 80px;
 }
 
-#section3{
-
-    background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+#section3 {
+  background-image: linear-gradient(
+    -225deg,
+    #2cd8d5 0%,
+    #6b8dd6 48%,
+    #8e37d7 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.font-25{
-
-    font-size: 25px;
-
+.font-25 {
+  font-size: 25px;
 }
 
-.font-35{
-
-    font-size: 35px;
-
+.font-35 {
+  font-size: 35px;
 }
-
 
 @media (max-width: 575.98px) {
-    .leftMargin{
-        margin: -25px 0 0 0;
-        margin-left: -40px;
-    }
- }
+  .leftMargin {
+    margin: -25px 0 0 0;
+    margin-left: -40px;
+  }
+}
